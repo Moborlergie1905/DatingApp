@@ -41,6 +41,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ChatBs.cs" />
+    <Compile Include="ConnectDB.cs" />
     <Compile Include="DateNeedBs.cs" />
     <Compile Include="ProfileBs.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

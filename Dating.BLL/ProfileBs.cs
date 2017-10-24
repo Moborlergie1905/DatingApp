@@ -12,7 +12,15 @@ namespace Dating.BLL
 {
     public class ProfileBs
     {
-        string conString = ConfigurationManager.ConnectionStrings["datingDB"].ConnectionString;
+        ConnectDB connection;
+        string conString;
+
+        public ProfileBs()
+        {
+            connection = new ConnectDB();
+            conString = connection.SetConnection;
+        }
+
         public IEnumerable<Profile> GetAll
         {
             get
@@ -66,7 +74,7 @@ namespace Dating.BLL
         public Profile GetById(int Id)
         {
             Profile profile = new Profile(); 
-            using (SqlConnection con = new SqlConnection())
+            using (SqlConnection con = new SqlConnection(conString))
             {
                 SqlCommand cmd = new SqlCommand("GetProfileById", con);
                 cmd.CommandType = CommandType.StoredProcedure;
