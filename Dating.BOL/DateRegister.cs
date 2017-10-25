@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -9,7 +10,9 @@ namespace Dating.BOL
     public class DateRegister
     {
         public int ID { get; set; }
+        [Display(Name = "Age From")]
         public int AgeMin { get; set; }
+        [Display(Name = "Age To")]
         public int AgeMax { get; set; }
         public string City { get; set; }
         public string HasChild { get; set; } //Future Reference
