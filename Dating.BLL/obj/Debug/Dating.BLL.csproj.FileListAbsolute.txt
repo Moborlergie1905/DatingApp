@@ -1,0 +1,7 @@
+C:\Users\Adnol Multimedia\Documents\Bolaji\Sample Projects\DatingApp\Dating\Dating.BLL\bin\Debug\Dating.BLL.dll
+C:\Users\Adnol Multimedia\Documents\Bolaji\Sample Projects\DatingApp\Dating\Dating.BLL\bin\Debug\Dating.BLL.pdb
+C:\Users\Adnol Multimedia\Documents\Bolaji\Sample Projects\DatingApp\Dating\Dating.BLL\bin\Debug\Dating.BOL.dll
+C:\Users\Adnol Multimedia\Documents\Bolaji\Sample Projects\DatingApp\Dating\Dating.BLL\bin\Debug\Dating.BOL.pdb
+C:\Users\Adnol Multimedia\Documents\Bolaji\Sample Projects\DatingApp\Dating\Dating.BLL\obj\Debug\Dating.BLL.csprojResolveAssemblyReference.cache
+C:\Users\Adnol Multimedia\Documents\Bolaji\Sample Projects\DatingApp\Dating\Dating.BLL\obj\Debug\Dating.BLL.dll
+C:\Users\Adnol Multimedia\Documents\Bolaji\Sample Projects\DatingApp\Dating\Dating.BLL\obj\Debug\Dating.BLL.pdb

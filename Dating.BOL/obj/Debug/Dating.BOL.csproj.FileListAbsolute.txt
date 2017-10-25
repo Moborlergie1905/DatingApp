@@ -1,0 +1,10 @@
+C:\Users\Adnol Multimedia\Documents\Bolaji\Sample Projects\DatingApp\Dating\Dating.BOL\bin\Debug\Dating.BOL.dll.config
+C:\Users\Adnol Multimedia\Documents\Bolaji\Sample Projects\DatingApp\Dating\Dating.BOL\bin\Debug\Dating.BOL.dll
+C:\Users\Adnol Multimedia\Documents\Bolaji\Sample Projects\DatingApp\Dating\Dating.BOL\bin\Debug\Dating.BOL.pdb
+C:\Users\Adnol Multimedia\Documents\Bolaji\Sample Projects\DatingApp\Dating\Dating.BOL\bin\Debug\EntityFramework.dll
+C:\Users\Adnol Multimedia\Documents\Bolaji\Sample Projects\DatingApp\Dating\Dating.BOL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Adnol Multimedia\Documents\Bolaji\Sample Projects\DatingApp\Dating\Dating.BOL\bin\Debug\EntityFramework.xml
+C:\Users\Adnol Multimedia\Documents\Bolaji\Sample Projects\DatingApp\Dating\Dating.BOL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Adnol Multimedia\Documents\Bolaji\Sample Projects\DatingApp\Dating\Dating.BOL\obj\Debug\Dating.BOL.csprojResolveAssemblyReference.cache
+C:\Users\Adnol Multimedia\Documents\Bolaji\Sample Projects\DatingApp\Dating\Dating.BOL\obj\Debug\Dating.BOL.dll
+C:\Users\Adnol Multimedia\Documents\Bolaji\Sample Projects\DatingApp\Dating\Dating.BOL\obj\Debug\Dating.BOL.pdb

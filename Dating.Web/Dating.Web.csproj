@@ -186,10 +186,65 @@
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\layout.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="images\1.gif" />
+    <Content Include="images\2.gif" />
+    <Content Include="images\3.gif" />
+    <Content Include="images\arrow.png" />
+    <Content Include="images\banner.gif" />
+    <Content Include="images\banner_1.gif" />
+    <Content Include="images\banner_inner.gif" />
+    <Content Include="images\body_container_bg.gif" />
+    <Content Include="images\border_vertical.gif" />
+    <Content Include="images\bottom_curve.gif" />
+    <Content Include="images\bottom_curve_1.gif" />
+    <Content Include="images\bullet.gif" />
+    <Content Include="images\footer.gif" />
+    <Content Include="images\footer_menu_border.gif" />
+    <Content Include="images\form_bg.gif" />
+    <Content Include="images\horizontal_border.gif" />
+    <Content Include="images\ico-email.png" />
+    <Content Include="images\ico-fax.png" />
+    <Content Include="images\ico-med-1.png" />
+    <Content Include="images\ico-med-2.png" />
+    <Content Include="images\ico-med-3.png" />
+    <Content Include="images\ico-med-4.png" />
+    <Content Include="images\ico-phone.png" />
+    <Content Include="images\ico-support.png" />
+    <Content Include="images\ico-terms.png" />
+    <Content Include="images\ico-twitter.png" />
+    <Content Include="images\ico-website.png" />
+    <Content Include="images\ico1.png" />
+    <Content Include="images\ico2.png" />
+    <Content Include="images\ico3.png" />
+    <Content Include="images\ico4.png" />
+    <Content Include="images\ico5.png" />
+    <Content Include="images\ico6.png" />
+    <Content Include="images\logo.gif" />
+    <Content Include="images\menu_bg.gif" />
+    <Content Include="images\menu_border.gif" />
+    <Content Include="images\middle_curve.gif" />
+    <Content Include="images\middle_curve_1.gif" />
+    <Content Include="images\more_btn.gif" />
+    <Content Include="images\photo-about.jpg" />
+    <Content Include="images\photo-contact.jpg" />
+    <Content Include="images\pic_1.gif" />
+    <Content Include="images\pic_2.gif" />
+    <Content Include="images\pic_3.gif" />
+    <Content Include="images\pic_4.gif" />
+    <Content Include="images\pic_5.gif" />
+    <Content Include="images\projectimg1.jpg" />
+    <Content Include="images\projectimg2.jpg" />
+    <Content Include="images\projectimg3.jpg" />
+    <Content Include="images\search_border.gif" />
+    <Content Include="images\search_btn.gif" />
+    <Content Include="images\title_bg.gif" />
+    <Content Include="images\top_curve.gif" />
+    <Content Include="images\top_curve_1.gif" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Areas\User\Views\web.config" />
@@ -261,6 +316,16 @@
     <Content Include="packages.config" />
     <None Include="Project_Readme.html" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Dating.BLL\Dating.BLL.csproj">
+      <Project>{5d611292-2bff-4cbb-a550-bfa8a6b9ae88}</Project>
+      <Name>Dating.BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Dating.BOL\Dating.BOL.csproj">
+      <Project>{2b78cfe5-ea69-4c7d-af14-fcf4e5b4e039}</Project>
+      <Name>Dating.BOL</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
