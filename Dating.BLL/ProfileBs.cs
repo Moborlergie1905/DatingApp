@@ -34,38 +34,42 @@ namespace Dating.BLL
 
                     con.Open();
                     SqlDataReader rdr = cmd.ExecuteReader();
-
-                    while (rdr.Read())
+                    if (rdr.HasRows)
                     {
-                        Profile profile = new Profile();
-                        profile.ID = Convert.ToInt32(rdr["ID"]);
-                        profile.FirstName = rdr["FirstName"].ToString();
-                        profile.LastName = rdr["LastName"].ToString();
-                        profile.Email = rdr["Email"].ToString();
-                        profile.Gender = rdr["Gender"].ToString();
-                        profile.DOB = Convert.ToDateTime(rdr["DOB"]);
-                        profile.Country = rdr["Country"].ToString();
-                        profile.City = rdr["City"].ToString();
-                        profile.Province = rdr["Province"].ToString();
-                        profile.Marital = rdr["Marital"].ToString();
-                        profile.Height = rdr["Height"].ToString();
-                        profile.Weight = rdr["Weight"].ToString();
-                        profile.BodyType = rdr["BodyType"].ToString();
-                        profile.HaveChild = rdr["Has_Children"].ToString();
-                        profile.WantChild = rdr["Want_Children"].ToString();
-                        profile.Education = rdr["Education"].ToString();
-                        profile.Ethnicity = rdr["Ethnicity"].ToString();
-                        profile.Occupation = rdr["Occupation"].ToString();
-                        profile.RelationshipType = rdr["Relationship"].ToString();
-                        profile.Religion = rdr["Religion"].ToString();
-                        profile.Mobile = rdr["Mobile"].ToString();
-                        profile.Nickname = rdr["Nickname"].ToString();
-                        profile.Smoke = rdr["Smoke"].ToString();
-                        profile.Drink = rdr["Drink"].ToString();
-                        profile.Desc = rdr["Self_Desc"].ToString();
-                        profile.IsActivated = rdr["Is_Activated"].ToString();
-                        profiles.Add(profile);
+                        while (rdr.Read())
+                        {
+                            Profile profile = new Profile();
+                            profile.ID = Convert.ToInt32(rdr["ID"]);
+                            profile.FirstName = rdr["FirstName"].ToString();
+                            profile.LastName = rdr["LastName"].ToString();
+                            profile.Email = rdr["Email"].ToString();
+                            profile.Gender = rdr["Gender"].ToString();
+                            profile.DOB = Convert.ToDateTime(rdr["DOB"]);
+                            profile.Country = rdr["Country"].ToString();
+                            profile.City = rdr["City"].ToString();
+                            profile.Province = rdr["Province"].ToString();
+                            profile.Marital = rdr["Marital"].ToString();
+                            profile.Height = rdr["Height"].ToString();
+                            profile.Weight = rdr["Weight"].ToString();
+                            profile.BodyType = rdr["BodyType"].ToString();
+                            profile.HaveChild = rdr["Has_Children"].ToString();
+                            profile.WantChild = rdr["Want_Children"].ToString();
+                            profile.Education = rdr["Education"].ToString();
+                            profile.Ethnicity = rdr["Ethnicity"].ToString();
+                            profile.Occupation = rdr["Occupation"].ToString();
+                            profile.RelationshipType = rdr["Relationship"].ToString();
+                            profile.Religion = rdr["Religion"].ToString();
+                            profile.Mobile = rdr["Mobile"].ToString();
+                            profile.Nickname = rdr["Nickname"].ToString();
+                            profile.Smoke = rdr["Smoke"].ToString();
+                            profile.Drink = rdr["Drink"].ToString();
+                            profile.Desc = rdr["Self_Desc"].ToString();
+                            profile.IsActivated = rdr["Is_Activated"].ToString();
+                            profiles.Add(profile);
+                        }
+                        
                     }
+
                     return profiles;
                 }
             }

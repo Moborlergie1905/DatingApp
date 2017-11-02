@@ -46,11 +46,16 @@
     <Compile Include="DateNeedBs.cs" />
     <Compile Include="ProfileBs.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WithEF\ProfileBs.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Dating.BOL\Dating.BOL.csproj">
       <Project>{2b78cfe5-ea69-4c7d-af14-fcf4e5b4e039}</Project>
       <Name>Dating.BOL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Dating.DAL\Dating.DAL.csproj">
+      <Project>{73601e72-845f-4855-b634-adf4a4cb65fc}</Project>
+      <Name>Dating.DAL</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -71,3 +71,5 @@ C:\Users\Adnol Multimedia\Documents\Bolaji\Sample Projects\DatingApp\Dating\Dati
 C:\Users\Adnol Multimedia\Documents\Bolaji\Sample Projects\DatingApp\Dating\Dating.Web\obj\Debug\Dating.Web.csprojResolveAssemblyReference.cache
 C:\Users\Adnol Multimedia\Documents\Bolaji\Sample Projects\DatingApp\Dating\Dating.Web\obj\Debug\Dating.Web.dll
 C:\Users\Adnol Multimedia\Documents\Bolaji\Sample Projects\DatingApp\Dating\Dating.Web\obj\Debug\Dating.Web.pdb
+C:\Users\Adnol Multimedia\Documents\Bolaji\Sample Projects\DatingApp\Dating\Dating.Web\bin\Dating.DAL.dll
+C:\Users\Adnol Multimedia\Documents\Bolaji\Sample Projects\DatingApp\Dating\Dating.Web\bin\Dating.DAL.pdb
