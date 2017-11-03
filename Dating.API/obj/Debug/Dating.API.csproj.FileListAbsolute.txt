@@ -96,3 +96,6 @@ C:\Users\Adnol Multimedia\Documents\Bolaji\Sample Projects\DatingApp\Dating\Dati
 C:\Users\Adnol Multimedia\Documents\Bolaji\Sample Projects\DatingApp\Dating\Dating.API\bin\Dating.DAL.pdb
 C:\Users\Adnol Multimedia\Documents\Bolaji\Sample Projects\DatingApp\Dating\Dating.API\obj\Debug\Dating.API.Migrations.initialMig.resources
 C:\Users\Adnol Multimedia\Documents\Bolaji\Sample Projects\DatingApp\Dating\Dating.API\obj\Debug\Dating.API.csproj.GenerateResource.Cache
+C:\Users\Adnol Multimedia\Documents\Bolaji\Sample Projects\DatingApp\Dating\Dating.API\bin\System.Web.Cors.dll
+C:\Users\Adnol Multimedia\Documents\Bolaji\Sample Projects\DatingApp\Dating\Dating.API\bin\System.Web.Http.Cors.dll
+C:\Users\Adnol Multimedia\Documents\Bolaji\Sample Projects\DatingApp\Dating\Dating.API\bin\System.Web.Http.Cors.xml
