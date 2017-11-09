@@ -10,17 +10,17 @@ namespace Dating.BOL
     public class Profile
     {
         public int ID { get; set; }
-        [Display(Name = "First Name"), Required(ErrorMessage = "First Name is REQUIRED")]
+        //[Display(Name = "First Name"), Required(ErrorMessage = "First Name is REQUIRED")]
         public string FirstName { get; set; }
-        [Display(Name = "First Name"), Required(ErrorMessage = "Last Name is REQUIRED")]
+        //[Display(Name = "First Name"), Required(ErrorMessage = "Last Name is REQUIRED")]
         public string LastName { get; set; }
-        [Display(Name = "E-mail"), Required(ErrorMessage = "E-mail is REQUIRED")]
-        [DataType(DataType.EmailAddress)]
+        //[Display(Name = "E-mail"), Required(ErrorMessage = "E-mail is REQUIRED")]
+        //[DataType(DataType.EmailAddress)]
         public string Email { get; set; }
-        [DataType(DataType.Password)]
+        //[DataType(DataType.Password)]
         public string Password { get; set; }
         public string Gender { get; set; }
-        [Display(Name = "Date of Birth"), Required(ErrorMessage = "First Name is REQUIRED")]
+        //[Display(Name = "Date of Birth"), Required(ErrorMessage = "First Name is REQUIRED")]
         [DisplayFormat(DataFormatString = "{0:d}")]
         public DateTime DOB { get; set; }
         public string Country { get; set; }

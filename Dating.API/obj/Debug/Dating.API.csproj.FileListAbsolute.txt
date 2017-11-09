@@ -99,3 +99,4 @@ C:\Users\Adnol Multimedia\Documents\Bolaji\Sample Projects\DatingApp\Dating\Dati
 C:\Users\Adnol Multimedia\Documents\Bolaji\Sample Projects\DatingApp\Dating\Dating.API\bin\System.Web.Cors.dll
 C:\Users\Adnol Multimedia\Documents\Bolaji\Sample Projects\DatingApp\Dating\Dating.API\bin\System.Web.Http.Cors.dll
 C:\Users\Adnol Multimedia\Documents\Bolaji\Sample Projects\DatingApp\Dating\Dating.API\bin\System.Web.Http.Cors.xml
+C:\Users\Adnol Multimedia\Documents\Bolaji\Sample Projects\DatingApp\Dating\Dating.API\obj\Debug\Dating.API.Migrations.newupdate.resources
