@@ -19,5 +19,9 @@ namespace Dating.DAL
             db.Entry(match).State = System.Data.Entity.EntityState.Modified;
             db.SaveChanges();
         }
+        public DateRegister GetById(int profileId)
+        {
+            return db.tblFindDate.SingleOrDefault(x => x.ProfileID == profileId);
+        }
     }
 }

@@ -46,6 +46,7 @@
     <Compile Include="DateNeedBs.cs" />
     <Compile Include="ProfileBs.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WithEF\DateRegisterBs.cs" />
     <Compile Include="WithEF\ProfileBs.cs" />
   </ItemGroup>
   <ItemGroup>
