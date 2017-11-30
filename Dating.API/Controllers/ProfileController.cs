@@ -76,46 +76,53 @@ namespace Dating.API.Controllers
         {
             try
             {
+                if(profile.ID != id)
+                {
+                    return Content(HttpStatusCode.NotFound, "Not found");
+                }
 
-                var prof = objBs.GetAll().Where(x => x.ID == id).SingleOrDefault();
-                    if(prof != null)
-                    {
-                    //prof = profile;
+                objBs.Update(profile);
+                return Ok();
 
-                    prof.FirstName = profile.FirstName;
-                    prof.LastName = profile.LastName;
-                    prof.Gender = profile.Gender;
-                    prof.DOB = Convert.ToDateTime(profile.DOB);
-                    prof.Email = profile.Email;
-                    prof.BodyType = profile.BodyType;
-                    prof.Height = profile.Height;
-                    prof.Weight = profile.Weight;
-                    prof.City = profile.City;
-                    prof.Country = profile.Country;
-                    prof.Desc = profile.Desc;
-                    prof.Drink = profile.Drink;
-                    prof.Education = profile.Education;
-                    prof.Smoke = profile.Smoke;
-                    prof.WantChild = profile.WantChild;
-                    prof.HaveChild = profile.HaveChild;
-                    prof.Province = profile.Province;
-                    prof.Nickname = profile.Nickname;
-                    prof.Marital = profile.Marital;
-                    prof.Occupation = profile.Occupation;
-                    prof.Mobile = profile.Mobile;
-                    prof.Password = profile.Password;
-                    prof.IsActivated = profile.IsActivated;
-                    prof.RelationshipType = profile.RelationshipType;
-                    prof.Religion = profile.Religion;
-                    prof.Ethnicity = profile.Ethnicity;                    
+                //var prof = objBs.GetAll().Where(x => x.ID == id).SingleOrDefault();
+                //    if(prof != null)
+                //    {
+                //    //prof = profile;
 
-                    objBs.Update(prof);
-                        return Ok(prof);
-                    }
-                    else
-                    {
-                        return Content(HttpStatusCode.NotFound, "Not found");
-                    }
+                //    prof.FirstName = profile.FirstName;
+                //    prof.LastName = profile.LastName;
+                //    prof.Gender = profile.Gender;
+                //    prof.DOB = Convert.ToDateTime(profile.DOB);
+                //    prof.Email = profile.Email;
+                //    prof.BodyType = profile.BodyType;
+                //    prof.Height = profile.Height;
+                //    prof.Weight = profile.Weight;
+                //    prof.City = profile.City;
+                //    prof.Country = profile.Country;
+                //    prof.Desc = profile.Desc;
+                //    prof.Drink = profile.Drink;
+                //    prof.Education = profile.Education;
+                //    prof.Smoke = profile.Smoke;
+                //    prof.WantChild = profile.WantChild;
+                //    prof.HaveChild = profile.HaveChild;
+                //    prof.Province = profile.Province;
+                //    prof.Nickname = profile.Nickname;
+                //    prof.Marital = profile.Marital;
+                //    prof.Occupation = profile.Occupation;
+                //    prof.Mobile = profile.Mobile;
+                //    prof.Password = profile.Password;
+                //    prof.IsActivated = profile.IsActivated;
+                //    prof.RelationshipType = profile.RelationshipType;
+                //    prof.Religion = profile.Religion;
+                //    prof.Ethnicity = profile.Ethnicity;                    
+
+                //    objBs.Update(prof);
+                //        return Ok(prof);
+                //    }
+                //    else
+                //    {
+                //        return Content(HttpStatusCode.NotFound, "Not found");
+                //    }
                     
                 
             }
