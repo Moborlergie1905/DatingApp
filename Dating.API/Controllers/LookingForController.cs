@@ -26,31 +26,41 @@ namespace Dating.API.Controllers
         {
             try
             {
-                var looking = objBs.GetById(id);
-                if (looking != null)
-                {
-                    looking.AgeMin = lookingFor.AgeMin;
-                    looking.AgeMax = lookingFor.AgeMax;
-                    looking.BodyType = lookingFor.BodyType;
-                    looking.City = lookingFor.City;
-                    looking.Drink = lookingFor.Drink;
-                    looking.Education = lookingFor.Education;
-                    looking.Height = lookingFor.Height;
-                    looking.Weight = lookingFor.Weight;
-                    looking.HasChild = lookingFor.HasChild;
-                    looking.WantChild = lookingFor.WantChild;
-                    looking.RelationshipType = lookingFor.RelationshipType;
-                    looking.Smoke = lookingFor.Smoke;
-                    looking.Ethnicity = lookingFor.Ethnicity;
-                    looking.Religion = lookingFor.Religion;
-                    objBs.Update(looking);
 
-                    return Ok();
-                }
-                else
+                if(lookingFor.ID != id)
                 {
                     return Content(HttpStatusCode.NotFound, "Not found");
                 }
+
+                objBs.Update(lookingFor);
+
+                return Ok();
+
+                //var looking = objBs.GetById(id);
+                //if (looking != null)
+                //{
+                //    looking.AgeMin = lookingFor.AgeMin;
+                //    looking.AgeMax = lookingFor.AgeMax;
+                //    looking.BodyType = lookingFor.BodyType;
+                //    looking.City = lookingFor.City;
+                //    looking.Drink = lookingFor.Drink;
+                //    looking.Education = lookingFor.Education;
+                //    looking.Height = lookingFor.Height;
+                //    looking.Weight = lookingFor.Weight;
+                //    looking.HasChild = lookingFor.HasChild;
+                //    looking.WantChild = lookingFor.WantChild;
+                //    looking.RelationshipType = lookingFor.RelationshipType;
+                //    looking.Smoke = lookingFor.Smoke;
+                //    looking.Ethnicity = lookingFor.Ethnicity;
+                //    looking.Religion = lookingFor.Religion;
+                //    objBs.Update(looking);
+
+                //    return Ok();
+                //}
+                //else
+                //{
+                //    return Content(HttpStatusCode.NotFound, "Not found");
+                //}
             }
             catch(Exception ex)
             {
